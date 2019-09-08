@@ -5,9 +5,9 @@ Original paper:
   > Laurent Dinh, David Krueger, Yoshua Bengio
 
 This implementation replicates the experiment on the MNIST dataset.
-A similar test set data likelihood as the one in reported in the original paper was achieved in 70 epochs with the current hyperparameters.
+A test-set data log likelihood of 1933.89 was recorded after 70 epochs with the current hyperparameters. The original paper reported a similar log likelihood of 1980.50.
 
-To train it on your own system, install NumPy and PyTorch, edit config.py, and run train.py.
+To train this on your own system, install NumPy and PyTorch, edit config.py, and run train.py.
 
 ## Samples
 
@@ -18,4 +18,3 @@ To train it on your own system, install NumPy and PyTorch, edit config.py, and r
 ![](/samples/samples3.png?raw=true)
 
 ![](/samples/samples4.png?raw=true)
-
